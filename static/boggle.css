@@ -1,0 +1,91 @@
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bcafaf;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Boggle Styles */
+
+#boggle {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.board {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.board td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+.score {
+  font-weight: bold;
+}
+
+.timer {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.add-word {
+  margin-bottom: 20px;
+}
+
+.add-word input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.add-word button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.msg {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.msg.ok {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.msg.err {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.words {
+  list-style-type: none;
+  padding: 0;
+}
+
+.words li {
+  margin-bottom: 5px;
+}
